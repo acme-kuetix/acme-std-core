@@ -1,0 +1,396 @@
+{
+  "core/orchestration/orchestration": {
+    "info": {
+      "go_module": "github.com/acme-kuetix/acme-std-core",
+      "namespace": "core/orchestration",
+      "class": "orchestration",
+      "label": "Orchestration Module",
+      "description": "Handles orchestration operations for core/orchestration service"
+    },
+    "methods": [
+      {
+        "value": "RunFeature",
+        "label": "RunFeature(p *workflow.WorkerSessionContext, name string) (r domain.FlowStepResult)",
+        "names": "RunFeature(p, name) r",
+        "types": "RunFeature(*workflow.WorkerSessionContext, string) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-core",
+          "file_path": "modules/core/orchestration/transitions/orchestration.go",
+          "module_path": "modules",
+          "namespace": "core/orchestration",
+          "class": "orchestration",
+          "name": "RunFeature",
+          "receiver_type": "*orchestrationTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "*workflow.WorkerSessionContext",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "p",
+            "name"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "RunWorkflow",
+        "label": "RunWorkflow(p *workflow.WorkerSessionContext, name string) (r domain.FlowStepResult)",
+        "names": "RunWorkflow(p, name) r",
+        "types": "RunWorkflow(*workflow.WorkerSessionContext, string) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-core",
+          "file_path": "modules/core/orchestration/transitions/orchestration.go",
+          "module_path": "modules",
+          "namespace": "core/orchestration",
+          "class": "orchestration",
+          "name": "RunWorkflow",
+          "receiver_type": "*orchestrationTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "*workflow.WorkerSessionContext",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "p",
+            "name"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "RunFeature",
+        "label": "RunFeature(p *workflow.WorkerSessionContext, name string) (r domain.FlowStepResult)",
+        "names": "RunFeature(p, name) r",
+        "types": "RunFeature(*workflow.WorkerSessionContext, string) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-core",
+          "file_path": "modules/core/orchestration/transitions/orchestration.go",
+          "module_path": "modules",
+          "namespace": "core/orchestration",
+          "class": "orchestration",
+          "name": "RunFeature",
+          "receiver_type": "*orchestrationTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "*workflow.WorkerSessionContext",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "p",
+            "name"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "RunWorkflow",
+        "label": "RunWorkflow(p *workflow.WorkerSessionContext, name string) (r domain.FlowStepResult)",
+        "names": "RunWorkflow(p, name) r",
+        "types": "RunWorkflow(*workflow.WorkerSessionContext, string) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-core",
+          "file_path": "modules/core/orchestration/transitions/orchestration.go",
+          "module_path": "modules",
+          "namespace": "core/orchestration",
+          "class": "orchestration",
+          "name": "RunWorkflow",
+          "receiver_type": "*orchestrationTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "*workflow.WorkerSessionContext",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "p",
+            "name"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      }
+    ]
+  },
+  "core/utils/utils": {
+    "info": {
+      "go_module": "github.com/acme-kuetix/acme-std-core",
+      "namespace": "core/utils",
+      "class": "utils",
+      "label": "Utils Module",
+      "description": "Handles utils operations for core/utils service"
+    },
+    "methods": [
+      {
+        "value": "GetValue",
+        "label": "GetValue(key string) (r domain.FlowStepResult)",
+        "names": "GetValue(key) r",
+        "types": "GetValue(string) domain.FlowStepResult",
+        "description": "Function with 1 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-core",
+          "file_path": "modules/core/utils/transitions/utils.go",
+          "module_path": "modules",
+          "namespace": "core/utils",
+          "class": "utils",
+          "name": "GetValue",
+          "receiver_type": "*utilsTransitions",
+          "num_in": 1,
+          "num_out": 1,
+          "arg_types": [
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "key"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "ToInt",
+        "label": "ToInt(v interface{}) (r domain.FlowStepResult)",
+        "names": "ToInt(v) r",
+        "types": "ToInt(interface{}) domain.FlowStepResult",
+        "description": "Function with 1 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-core",
+          "file_path": "modules/core/utils/transitions/utils.go",
+          "module_path": "modules",
+          "namespace": "core/utils",
+          "class": "utils",
+          "name": "ToInt",
+          "receiver_type": "*utilsTransitions",
+          "num_in": 1,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "v"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "ParseTaxTemplateIds",
+        "label": "ParseTaxTemplateIds(v interface{}) (r domain.FlowStepResult)",
+        "names": "ParseTaxTemplateIds(v) r",
+        "types": "ParseTaxTemplateIds(interface{}) domain.FlowStepResult",
+        "description": "Function with 1 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-core",
+          "file_path": "modules/core/utils/transitions/utils.go",
+          "module_path": "modules",
+          "namespace": "core/utils",
+          "class": "utils",
+          "name": "ParseTaxTemplateIds",
+          "receiver_type": "*utilsTransitions",
+          "num_in": 1,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "v"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "SetValue",
+        "label": "SetValue(key string, value interface{}) (r domain.FlowStepResult)",
+        "names": "SetValue(key, value) r",
+        "types": "SetValue(string, interface{}) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-core",
+          "file_path": "modules/core/utils/transitions/utils.go",
+          "module_path": "modules",
+          "namespace": "core/utils",
+          "class": "utils",
+          "name": "SetValue",
+          "receiver_type": "*utilsTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "interface{}"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "key",
+            "value"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "GetValue",
+        "label": "GetValue(key string) (r domain.FlowStepResult)",
+        "names": "GetValue(key) r",
+        "types": "GetValue(string) domain.FlowStepResult",
+        "description": "Function with 1 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-core",
+          "file_path": "modules/core/utils/transitions/utils.go",
+          "module_path": "modules",
+          "namespace": "core/utils",
+          "class": "utils",
+          "name": "GetValue",
+          "receiver_type": "*utilsTransitions",
+          "num_in": 1,
+          "num_out": 1,
+          "arg_types": [
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "key"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "ParseTaxTemplateIds",
+        "label": "ParseTaxTemplateIds(v interface{}) (r domain.FlowStepResult)",
+        "names": "ParseTaxTemplateIds(v) r",
+        "types": "ParseTaxTemplateIds(interface{}) domain.FlowStepResult",
+        "description": "Function with 1 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-core",
+          "file_path": "modules/core/utils/transitions/utils.go",
+          "module_path": "modules",
+          "namespace": "core/utils",
+          "class": "utils",
+          "name": "ParseTaxTemplateIds",
+          "receiver_type": "*utilsTransitions",
+          "num_in": 1,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "v"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "SetValue",
+        "label": "SetValue(key string, value interface{}) (r domain.FlowStepResult)",
+        "names": "SetValue(key, value) r",
+        "types": "SetValue(string, interface{}) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-core",
+          "file_path": "modules/core/utils/transitions/utils.go",
+          "module_path": "modules",
+          "namespace": "core/utils",
+          "class": "utils",
+          "name": "SetValue",
+          "receiver_type": "*utilsTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "interface{}"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "key",
+            "value"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "ToInt",
+        "label": "ToInt(v interface{}) (r domain.FlowStepResult)",
+        "names": "ToInt(v) r",
+        "types": "ToInt(interface{}) domain.FlowStepResult",
+        "description": "Function with 1 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-core",
+          "file_path": "modules/core/utils/transitions/utils.go",
+          "module_path": "modules",
+          "namespace": "core/utils",
+          "class": "utils",
+          "name": "ToInt",
+          "receiver_type": "*utilsTransitions",
+          "num_in": 1,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "v"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      }
+    ]
+  }
+}
